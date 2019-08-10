@@ -13,7 +13,7 @@ import com.dna.hackthon.entity.Demand;
 import com.dna.hackthon.service.ProjectService;
 
 @RestController
- @CrossOrigin(origins = "http://10.117.189.112:8080")
+ @CrossOrigin
 public class ProjectController {
 	@Autowired
     private ProjectService projectService;
